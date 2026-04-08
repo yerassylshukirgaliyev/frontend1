@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": "rUHcKaN4YuM",
+      "title": "bjgbujh",
+      "price": 99,
+      "categoryId": 1
+    },
+    {
+      "id": "ACk-TWp2G00",
+      "title": "dfsf",
+      "price": 222,
+      "categoryId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "user@mail.com"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "userId": 1,
+      "products": [
+        1,
+        2
+      ],
+      "totalPrice": 3200
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Smartphones"
+    },
+    {
+      "id": 2,
+      "name": "Laptops"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
